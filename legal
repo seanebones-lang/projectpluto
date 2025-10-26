@@ -1,0 +1,69 @@
+# Proprietary Software License for Grace Horizon GitHub Repository
+
+**IMPORTANT NOTICE – PLEASE READ CAREFULLY BEFORE ACCESSING, CLONING, OR USING THIS REPOSITORY.**  
+
+This Proprietary Software License (this "License") governs access to and use of the source code, documentation, and any other materials (collectively, the "Repository Contents") in the GitHub repository located at [Insert GitHub Repo URL, e.g., https://github.com/seanmcdonnell/grace-horizon] (the "Repository"), owned by Sean McDonnell ("Owner").  
+
+By accessing, cloning, downloading, or using any part of the Repository Contents, you ("User") agree to be bound by the terms of this License. If you do not agree, you must not access or use the Repository and must immediately delete any copies in your possession. This Repository is for demonstration and evaluation purposes only, and the software ("Grace Horizon") is proprietary and offered for sale "as is."  
+
+## 1. Limited Access Rights  
+Subject to your compliance with this License, Owner grants you a limited, non-exclusive, non-transferable, revocable right to access and view the Repository Contents solely for personal evaluation purposes to assess its suitability for potential purchase or collaboration. This right is granted for a period of [Insert Duration, e.g., thirty (30) days] from your first access (the "Evaluation Period"), unless earlier terminated.  
+
+No other rights are granted. The Repository Contents are not open-source and may not be used for any development, production, commercial, or other purposes without a separate written agreement from Owner.  
+
+## 2. Ownership and Proprietary Rights  
+The Repository Contents are and shall remain the sole and exclusive property of Owner. Owner reserves all rights, title, and interest in and to the Repository Contents, including all intellectual property rights, copyrights, patents, trademarks, trade secrets, and any other proprietary rights therein. All rights not expressly granted herein are reserved by Owner.  
+
+You acknowledge that the Repository Contents contain valuable trade secrets and confidential information of Owner. You shall not remove, alter, or obscure any copyright, trademark, or other proprietary notices.  
+
+The software in this Repository is offered for sale "as is," without any modifications, customizations, or enhancements unless separately agreed upon in writing by Owner.  
+
+## 3. Restrictions  
+You shall not, and shall not permit any third party to:  
+(a) Copy, reproduce, modify, adapt, translate, or create derivative works of the Repository Contents;  
+(b) Reverse engineer, decompile, disassemble, or otherwise attempt to derive the source code or underlying structure;  
+(c) Distribute, sublicense, rent, lease, lend, fork, or otherwise transfer the Repository Contents to any third party;  
+(d) Use the Repository Contents for any commercial purpose, including but not limited to providing services to third parties or incorporating into any product;  
+(e) Export or re-export in violation of any applicable export control laws;  
+(f) Use in any manner that infringes or violates any third-party rights or applicable laws; or  
+(g) Disclose, share, or make public any part of the Repository Contents without Owner's prior written consent.  
+
+Any unauthorized use constitutes a material breach and may result in immediate termination of access rights.  
+
+## 4. Confidentiality and Non-Disclosure Agreement (NDA)  
+You agree that the Repository Contents, including but not limited to source code, documentation, designs, algorithms, and any other information disclosed in or derived from the Repository (collectively, "Confidential Information"), are confidential and proprietary to Owner.  
+
+You shall:  
+(a) Hold the Confidential Information in strict confidence and not disclose it to any third party without Owner's prior written approval;  
+(b) Use the Confidential Information solely for the evaluation purposes permitted under this License;  
+(c) Protect the Confidential Information with at least the same degree of care as you use to protect your own confidential information of similar importance, but in no event less than reasonable care;  
+(d) Not use the Confidential Information for any purpose other than evaluation, including competitive analysis, benchmarking, or development of similar software.  
+
+Exceptions: Confidential Information does not include information that: (i) is or becomes publicly available through no fault of yours; (ii) was rightfully known to you prior to disclosure; or (iii) is independently developed by you without reference to the Confidential Information.  
+
+Upon expiration or termination of the Evaluation Period, or at Owner's request, you shall promptly return or destroy all Confidential Information and certify such destruction in writing. This NDA survives termination of this License for a period of five (5) years.  
+
+## 5. No Warranties; "As Is" Basis  
+THE REPOSITORY CONTENTS ARE PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, OR THAT THEY WILL MEET YOUR REQUIREMENTS OR BE ERROR-FREE. OWNER DOES NOT WARRANT THAT ACCESS WILL BE UNINTERRUPTED OR THAT ANY DEFECTS WILL BE CORRECTED. YOU ASSUME ALL RISKS ASSOCIATED WITH USE.  
+
+## 6. Limitation of Liability  
+IN NO EVENT SHALL OWNER BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, DATA, OR USE, ARISING OUT OF OR RELATED TO THIS LICENSE OR THE REPOSITORY CONTENTS, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. OWNER'S TOTAL LIABILITY SHALL NOT EXCEED ONE HUNDRED U.S. DOLLARS (US$100).  
+
+## 7. Termination  
+This License terminates automatically upon expiration of the Evaluation Period or earlier upon: (a) your breach of any provision; or (b) written notice from Owner. Upon termination, you shall immediately cease all access and use, delete all copies, and destroy any related materials. Sections 2, 3, 4, 5, 6, 7, and 8 survive termination.  
+
+## 8. Enforcement  
+Owner reserves the right to monitor access to ensure compliance. Any violation, including unauthorized use, copying, or disclosure, will be pursued to the fullest extent permitted by law, including seeking injunctive relief, damages, and attorneys' fees. You agree that any breach may cause irreparable harm to Owner for which monetary damages alone would be inadequate.  
+
+## 9. General Provisions  
+(a) **Governing Law**: This License shall be governed by the laws of the State of [Insert State, e.g., California], without regard to conflict of laws principles. Any disputes shall be resolved exclusively in the state or federal courts located in [Insert County/City, e.g., San Francisco County, California].  
+(b) **Entire Agreement**: This License constitutes the entire understanding and supersedes all prior agreements. No amendments unless in writing and signed by Owner.  
+(c) **Severability**: If any provision is held invalid, the remainder continues in full force.  
+(d) **No Waiver**: Failure to enforce any provision does not constitute a waiver.  
+(e) **Contact**: For inquiries or permissions, contact Owner at [Insert Email, e.g., sean@gracehorizon.com].  
+
+**All Rights Reserved © 2025 Sean McDonnell.**  
+
+---
+
+**Note from Senior Engineer/Developer:** This is a GitHub-adapted version of the proprietary evaluation license, formatted as a LICENSE.md file (copy-paste into your repo's root). I've incorporated the NDA clause as Section 4, ensuring it's enforceable for confidential repo access (make the repo private on GitHub). This aligns with 2025 best practices: GitHub's license detection won't classify it as open-source, preserving your IP. No tools needed here—pure draft based on standards (e.g., similar to proprietary notices from Microsoft/GitHub Enterprise repos). To App Store ASAP: Once repo is licensed, we can share securely with evaluators like Dom & Tom. If this doesn't meet standards (e.g., add jurisdiction details), flag for corrections. Let's push this live!
