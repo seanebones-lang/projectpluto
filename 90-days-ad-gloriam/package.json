@@ -20,5 +20,31 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@nestjs/common": "^11.1.8",
+    "@nestjs/config": "^4.0.2",
+    "@nestjs/core": "^11.1.8",
+    "@nestjs/jwt": "^11.0.1",
+    "@nestjs/passport": "^11.0.5",
+    "@nestjs/platform-express": "^11.1.8",
+    "@nestjs/platform-socket.io": "^11.1.8",
+    "@nestjs/throttler": "^6.4.0",
+    "@nestjs/websockets": "^11.1.8",
+    "@prisma/client": "^6.18.0",
+    "@types/bcryptjs": "^3.0.0",
+    "@types/passport-jwt": "^4.0.1",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "ethers": "^6.15.0",
+    "express": "^5.1.0",
+    "guards": "^0.3.0",
+    "helmet": "^8.1.0",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "prisma": "^6.18.0",
+    "reflector": "^0.0.4",
+    "socket.io": "^4.8.1",
+    "walletconnect": "^1.7.8"
+  }
 }

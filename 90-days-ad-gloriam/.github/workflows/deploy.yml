@@ -1,0 +1,43 @@
+name: Deploy to AWS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '22'
+      
+      - name: Install dependencies
+        run: npm install -g turbo && cd apps/mobile && npm install && cd ../backend && npm install
+      
+      - name: Build frontend (Expo)
+        run: cd apps/mobile && npx expo build:web  # For PWA; adjust for mobile as needed
+      
+      - name: Build backend
+        run: cd apps/backend && npm run build
+      
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1  # Update as needed
+      
+      - name: Deploy backend to AWS Lambda
+        run: cd apps/backend && aws lambda create-function --function-name 90DaysBackend --runtime nodejs18.x --handler index.handler --code S3Bucket=my-bucket --role arn:aws:iam::123456789012:role/lambda-role  # Replace with actual values
+      
+      - name: Deploy frontend to AWS Amplify
+        uses: aws-amplify/amplify-github-action@v1
+        with:
+          command: 'amplify push'
+          appId: 'your-amplify-app-id'  # Replace with actual Amplify app ID

@@ -1,0 +1,32 @@
+{
+  "name": "mobile",
+  "version": "1.0.0",
+  "description": "React Native mobile app for 90 Days ad Gloriam",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~54.0.20",
+    "react": "^19.1.1",
+    "react-native": "0.82.1",
+    "@react-navigation/native": "^7.1.0",
+    "react-native-gesture-handler": "~2.18.1",
+    "react-native-reanimated": "~4.0.0",
+    "expo-notifications": "~0.29.0",
+    "expo-av": "~14.0.0",
+    "expo-location": "~17.0.0",
+    "realm": "12.6.0",
+    "@tanstack/react-query": "^5.90.5",
+    "zustand": "^5.0.8",
+    "axios": "^1.7.7",
+    "nativewind": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.0"
+  },
+  "private": true
+}
