@@ -1,13 +1,23 @@
-# 90 Days ad Gloriam - Spiritual Pilgrimage App
+# 90 Days ad Gloriam - ELCA AI-Enabled Spiritual Companion
 
-**Status:** Phase 1 Complete - Phase 2 In Progress  
+**Organization:** Evangelical Lutheran Church in America (ELCA)  
+**Status:** Phase 2 In Progress - AI-Enabled Features  
 **Date:** October 27, 2025  
-**Tech Stack:** React Native 0.82.1 + NestJS 11.0.0 + Prisma 6.0.0  
+**Tech Stack:** React Native 0.82.1 + NestJS 11.0.0 + Prisma 6.0.0 + Grok-4 AI  
 **Current Branch:** phase-2-community-features
 
 ## Project Overview
 
-A comprehensive spiritual pilgrimage mobile app with AI-powered guidance, 90-day journey tracking, fellowship communities, and service waypoints. Built with modern architecture and best practices for production deployment.
+An AI-powered spiritual companion app for the ELCA, featuring Lutheran-contextualized AI guidance, 90-day spiritual formation journeys, real-time fellowship communities, and geo-localized service opportunities. Built with Grok-4 AI fine-tuned on Lutheran theology and modern architecture for production deployment.
+
+## ELCA-Specific AI Features
+
+- **Lutheran Theological AI**: Grok-4 trained on ELCA resources, Book of Concord, and Lutheran theology
+- **Daily Lectionary Devotions**: AI-generated reflections on Revised Common Lectionary readings
+- **Prayer Companion**: Voice-enabled Lutheran-style intercessory prayer guidance
+- **AI Mentor Matching**: Intelligent pairing with ELCA spiritual directors based on journey stage
+- **Service Opportunity Discovery**: Geo-localized ELCA World Hunger and Lutheran Social Services sites
+- **Community Challenges**: Shared spiritual goals with AI-powered progress insights
 
 ## What's Complete
 

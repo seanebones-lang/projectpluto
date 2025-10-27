@@ -8,14 +8,15 @@ datasource db {
 }
 
 model User {
-  id        String      @id @default(uuid())
-  email     String      @unique
-  password  String
-  createdAt DateTime    @default(now())
-  updatedAt DateTime    @updatedAt
-  paths     UserPath[]
-  journals  Journal[]
-  services  Service[]
+  id                    String                @id @default(uuid())
+  email                 String                @unique
+  password              String
+  createdAt             DateTime              @default(now())
+  updatedAt             DateTime              @updatedAt
+  paths                 UserPath[]
+  journals              Journal[]
+  services              Service[]
+  challengeParticipants ChallengeParticipant[]
 }
 
 model UserPath {
@@ -73,4 +74,29 @@ model VolunteerNeed {
   description String
   waypoint   Waypoint @relation(fields: [waypointId], references: [id])
   createdAt  DateTime @default(now())
+}
+
+model Challenge {
+  id           String                @id @default(uuid())
+  title        String
+  description  String
+  goalType     String                // e.g., "prayer_hours", "service_hours", "journal_entries"
+  goalTarget   Int
+  startDate    DateTime
+  endDate      DateTime
+  isActive     Boolean               @default(true)
+  createdAt    DateTime              @default(now())
+  participants ChallengeParticipant[]
+}
+
+model ChallengeParticipant {
+  id          String    @id @default(uuid())
+  userId      String
+  challengeId String
+  progress    Int       @default(0)
+  joinedAt    DateTime  @default(now())
+  completedAt DateTime?
+  user        User      @relation(fields: [userId], references: [id])
+  challenge   Challenge @relation(fields: [challengeId], references: [id])
+  @@unique([userId, challengeId])
 }
