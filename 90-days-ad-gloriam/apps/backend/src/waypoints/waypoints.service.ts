@@ -38,4 +38,11 @@ export class WaypointsService {
       },
     });
   }
+
+  async findById(id: string) {
+    return this.prisma.waypoint.findUnique({
+      where: { id },
+      include: { needs: true },
+    });
+  }
 }

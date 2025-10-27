@@ -3,6 +3,7 @@ import { ConfigModule } from '@nestjs/config';
 import { ThrottlerModule } from '@nestjs/throttler';
 import { AuthModule } from './auth/auth.module';
 import { UsersModule } from './users/users.module';
+import { WaypointsModule } from './waypoints/waypoints.module';
 import { PrismaService } from './prisma/prisma.service';
 
 @Module({
@@ -16,6 +17,7 @@ import { PrismaService } from './prisma/prisma.service';
     }]),
     AuthModule,
     UsersModule,
+    WaypointsModule,
   ],
   providers: [PrismaService],
 })
